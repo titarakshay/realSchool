@@ -182,7 +182,8 @@ table {
 .media-hammenu-div,
 .media-heading,
 .media-sub-heading,
-.media-share {
+.media-share,
+.media-nav-links {
   display: none;
 }
 
@@ -1024,5 +1025,25 @@ body {
     left: 220px;
     z-index: 10;
   }
+  .media-nav-links {
+    text-align: center;
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    background-color: #b8b6b6;
+    padding: 1rem;
+    z-index: 1;
+  }
+  .media-nav-links a {
+    font-size: 1.3rem;
+    color: black;
+  }
+  .media-nav-links li {
+    margin: 1rem 0;
+  }
+}
+
+#toggle:checked ~ .media-nav-links {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
