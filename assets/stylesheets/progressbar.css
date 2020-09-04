@@ -1,0 +1,22 @@
+.percent {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.percent .svg {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.percent .svg .circle {
+  width: 50px;
+  height: 50px;
+  fill: none;
+  stroke-width: 10;
+  stroke: blueviolet;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+/*# sourceMappingURL=progressbar.css.map */

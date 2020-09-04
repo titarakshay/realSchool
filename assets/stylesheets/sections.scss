@@ -1,0 +1,77 @@
+.second-section-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.2rem;
+}
+
+.section-img {
+  margin-right: 2rem;
+}
+
+.title-card {
+  font-size: 2rem;
+}
+.card-div {
+  width: 40%px;
+  .card-arrow {
+    text-align: right;
+    font-size: 1.9rem;
+  }
+}
+.forth-card-section {
+  margin-bottom: 2rem;
+}
+.third-section-div {
+  p {
+    line-height: 1.4;
+    font-size: 1rem;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+.col-div {
+  padding: 1.9rem 2.2rem;
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.404);
+  background-color: #f6feff;
+  text-align: center;
+  .icon {
+    font-size: 4rem;
+    color: rgb(247, 101, 162);
+  }
+  h5 {
+    color: red;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  font-size: 2rem;
+}
+
+.badges-btn {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.goals-badges-btn {
+  display: flex;
+}
+.floatRight {
+  float: right;
+}
+
+.badges-btn-margin {
+  margin-right: 3rem !important;
+}

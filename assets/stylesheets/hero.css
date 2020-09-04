@@ -1,0 +1,169 @@
+.hero-div {
+  padding: 1rem 0;
+}
+
+.hero-div h2 {
+  font-size: 1.8rem;
+}
+
+.hero-div h3 {
+  font-size: 1.2rem;
+}
+
+.hero-div h5 {
+  margin: 1.4rem 0;
+  color: #c8d1d1;
+  font-size: 1rem !important;
+}
+
+.recommend-btn {
+  background-color: #fdffd3;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+.recommend-btn img {
+  margin-right: 1rem;
+}
+
+.recommend-btn p {
+  text-align: left;
+}
+
+.recommend-btn .far {
+  font-size: 2.3rem;
+  margin-right: 1rem;
+}
+
+.hero-heading h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333333;
+  font-family: "Montserrat";
+}
+
+.hero-image {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-image-div {
+  position: relative;
+  width: 48%;
+}
+
+.hero-image-div img {
+  font-size: 0;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.hero-image-div .absolute-heading {
+  font-weight: 900;
+  position: absolute;
+  color: white;
+  top: 0.9rem;
+  right: 1.5rem;
+}
+
+.hero-image-div .watch-absolute {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1rem;
+  font-weight: 900;
+  font-family: "Grandstander", cursive;
+}
+
+.btn-watch {
+  padding: 0.8rem 1.2rem;
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.hero-details {
+  width: 46%;
+  font-size: 16px;
+}
+
+.hero-details h3 {
+  font-size: 1.5rem;
+}
+
+.devices-div {
+  margin-left: 4.5rem;
+}
+
+.devices-div i {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  text-align: left;
+}
+
+.btn-grey {
+  border-radius: 100px;
+  padding: 0.6rem 1.8rem;
+  border: 1px solid grey;
+  display: inline-block;
+  margin-right: 1rem;
+  background: white;
+  font-size: 0.8rem;
+}
+
+.btn-grey-div {
+  margin-top: 0.6rem;
+}
+
+.seats-div {
+  font-size: 0.9rem;
+  margin: 0.6rem 0.5rem;
+  padding: 0;
+}
+
+.seats-div h5 {
+  margin: 0;
+}
+
+.points-anchor {
+  color: red;
+  text-decoration: underline;
+  margin-left: 0.9rem;
+}
+
+.fee-div button {
+  -webkit-box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.164);
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.book-btn {
+  font-size: 1.5rem;
+  padding: 0.8rem 7rem;
+  color: white;
+  background-color: #ff3a58;
+  border-radius: 5px;
+  font-weight: 800;
+  border: none;
+}
+
+.share-btn {
+  background-color: white;
+  color: #ff3a58;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ff3a58;
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=hero.css.map */

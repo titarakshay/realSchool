@@ -1,0 +1,248 @@
+@media screen and (max-width: 760px) {
+  .container {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+  .main-container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .logo,
+  .sub-heading,
+  .hammenu-div,
+  .recommend-btn {
+    display: none !important;
+  }
+  .media-inr,
+  .media-hammenu-div {
+    display: inline-block;
+  }
+  .media-inr .btn-common,
+  .media-hammenu-div .btn-common {
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+  }
+  .header .heading {
+    font-size: 1.5rem;
+  }
+  .media-heading {
+    padding: 0 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1rem;
+  }
+  .media-heading .fas,
+  .media-heading a,
+  .media-heading .media-inr,
+  .media-heading .hamburger {
+    font-size: 1rem;
+  }
+  .hero-image {
+    display: block;
+  }
+  .hero-div {
+    display: block;
+  }
+  .hero-div .grey-color {
+    display: none;
+  }
+  .hero-div .hero-heading h2 {
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+  }
+  .hero-div .media-sub-heading {
+    display: block;
+    font-size: 0.9rem;
+  }
+  .hero-image-div {
+    position: relative;
+    width: 100%;
+  }
+  .watch-absolute,
+  .absolute-heading {
+    font-size: 1rem;
+  }
+  .hero-details {
+    width: 100%;
+  }
+  .hero-details .grey-color {
+    display: inline-block;
+  }
+  .hero-details h6 {
+    display: block;
+  }
+  .hero-details h3 {
+    font-size: 1rem;
+  }
+  .btn-watch {
+    padding: 0.6rem 1rem;
+  }
+  .media-share {
+    display: block;
+    font-size: 1rem;
+  }
+  .media-share .fas {
+    color: #ff3a58;
+  }
+  .device-div h6 {
+    display: block;
+  }
+  .fee-div .grey-color {
+    display: block;
+  }
+  .book-btn {
+    padding: 0.8rem 1.2rem;
+  }
+  .second-section-div h2,
+  .third-section-div h2,
+  .forth-section-div h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 900;
+    font-family: "Grandstander", cursive;
+  }
+  .sec-col1,
+  .second-section-grid {
+    display: block;
+    margin: 1rem 0;
+  }
+  .col-div {
+    margin: 1rem 0;
+  }
+  .flex {
+    display: block;
+  }
+  .title-card {
+    font-size: 1.8rem;
+  }
+  .section-img {
+    margin: 1rem 0;
+  }
+  .card-div {
+    width: 95%;
+    margin: 1rem 0;
+  }
+  .card-arrow {
+    text-align: none;
+  }
+  .live-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .btn-grey-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+  }
+  .btn-grey-div .btn-grey {
+    padding: 0.4rem 0.9rem;
+    font-size: 1.2rem;
+  }
+  .seats-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .seats-div .grey-color {
+    font-size: 0.8rem;
+  }
+  .img-bg {
+    background-image: none;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .mobile-img {
+    width: auto;
+  }
+  .mobile-img img {
+    width: 100%;
+  }
+  .col-2,
+  .col-4 {
+    display: none;
+  }
+  .footer-down p {
+    font-size: 12px;
+    padding: 0.5rem 0.3rem;
+  }
+  .btn-footer {
+    margin: 3rem 0;
+    width: 100%;
+  }
+  .media-footer {
+    display: inline;
+    color: #fff;
+    padding-bottom: 0;
+  }
+  .media-footer-heading {
+    padding: 1rem 0.5rem;
+    border-bottom: 0.5px solid #909090;
+  }
+  .media-footer-heading h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  .media-footer-heading span {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+  .media-footer p {
+    font-size: 14px;
+    padding: 1rem 0.5rem;
+    font-weight: 300;
+    border-bottom: 0.5px solid #909090;
+  }
+  .footer-up {
+    padding: 0;
+  }
+  .media-footer-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    padding: 1rem 0.5rem;
+    font-weight: 300;
+    border-bottom: 0.5px solid #909090;
+  }
+  .media-footer-flex .fab {
+    font-size: 1.25rem;
+    padding-left: 2rem;
+  }
+  .hide-links {
+    display: none !important;
+  }
+  .section-common-heading {
+    font-size: 1.2rem;
+  }
+  .desktop-view-div {
+    display: none;
+  }
+  .media-card-slider {
+    display: block !important;
+  }
+  .col-div p {
+    font-size: 14px;
+  }
+  .white {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 2rem;
+    bottom: 120px;
+    left: 220px;
+    z-index: 10;
+  }
+}
+/*# sourceMappingURL=media.css.map */

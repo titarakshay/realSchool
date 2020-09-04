@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+}
+
+.main-container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.hero-container {
+  background-color: #fbfcf7;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.btn-common {
+  border-radius: 100px;
+  padding: 0.6rem 1.25rem;
+  border: 1px solid black;
+  background: transparent;
+  font-family: "Grandstander", cursive;
+}
+
+.grey-color {
+  color: #a9b7b9;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.green-dash {
+  display: inline-block;
+  width: 3rem;
+  height: 0.4rem;
+  background-color: #a0e467;
+  margin: 2rem 0;
+}
+
+.section-common-heading {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Grandstander", cursive;
+}
+
+.section-commn-btn {
+  padding: 0 1rem;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  border: none;
+  font-weight: 900;
+  font-family: "Grandstander", cursive;
+}
+
+.goals {
+  background-color: #6188ea;
+}
+
+.badges {
+  background-color: #8ae241;
+}
+
+.skills {
+  background-color: #af70fc;
+}
+
+.btn-commn-skill {
+  padding: 0.9rem 2rem 0.9rem 0.4rem;
+  margin: 1rem 0;
+  background-color: transparent;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  border: 1px solid grey;
+  font-weight: 900;
+  font-family: "Grandstander", cursive;
+}
+
+.yellow-round-btn {
+  border-radius: 100px;
+  padding: 0.75rem 0.19rem;
+  background-color: #ffe30d;
+  color: #988702;
+  font-size: 0.92rem;
+  margin: 0 0.9rem 0 0.3rem;
+}
+
+.half-round {
+  border-radius: 0;
+  padding-left: 0.6rem;
+  border-top-left-radius: 20px 25px;
+  border-bottom-left-radius: 20px 25px;
+  border-top-right-radius: 0 5px;
+  border-bottom-right-radius: 0 5px;
+  margin-top: 2.9rem;
+}
+
+.sec-col1 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.yellow-bottom {
+  margin-top: 2.9rem;
+}
+
+.grid2 {
+  margin-top: 2rem;
+}
+
+.top {
+  margin: 4rem 0;
+}
+
+.second-section-div h2,
+.third-section-div h2,
+.forth-section-div h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Grandstander", cursive;
+}
+
+.ftz-12 {
+  font-size: 12px;
+}
+
+.ftz-14 {
+  font-size: 14px;
+}
+
+.media-card-slider {
+  display: none;
+}
+/*# sourceMappingURL=common.css.map */

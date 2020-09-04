@@ -1,0 +1,44 @@
+.header {
+  padding: 1rem 0;
+  .heading {
+    color: tomato;
+    font-size: 1.5rem;
+  }
+  input {
+    display: none;
+  }
+  .hamburger {
+    font-size: 1.8rem;
+  }
+  .fas {
+    color: green;
+    font-size: 1.5rem;
+  }
+}
+.hammenu-div {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.nav-links li {
+  margin-left: 3rem;
+  a {
+    color: #000000;
+    font-style: italic;
+    font-family: "Grandstander", cursive;
+  }
+}
+
+.header-btn {
+  padding: 0.4rem 1.5rem 0.4rem 0 !important;
+  border-radius: 200px !important;
+}
+
+// hide all media elements
+.media-inr,
+.media-hammenu-div,
+.media-heading,
+.media-sub-heading,
+.media-share {
+  display: none;
+}
