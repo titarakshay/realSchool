@@ -247,6 +247,7 @@
     z-index: 10;
   }
   .media-nav-links {
+    display: none;
     text-align: center;
     position: absolute;
     top: 3.5rem;
@@ -262,7 +263,7 @@
       margin: 1rem 0;
     }
   }
-}
-#toggle:checked ~ .media-nav-links {
-  display: inline-block;
+  #toggle:checked ~ .media-nav-links {
+    display: inline-block;
+  }
 }
